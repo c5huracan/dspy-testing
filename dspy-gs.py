@@ -13,7 +13,7 @@ print(result.reasoning)
 print(result.answer)
 '''
 
-# agentic example with multiple tool use
+# basic agentic example with multiple tool use
 def evaluate_math(expression: str):
     return dspy.PythonInterpreter({}).execute(expression)
 
