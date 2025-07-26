@@ -26,4 +26,4 @@ react = dspy.ReAct("question -> answer: float", tools=[evaluate_math, search_wik
 result = react(question="What is 9362158 divided by the year of birth of David Gregory of Kinnairdy castle?")
 print(result.reasoning)
 print(result.answer)
-print(9362158/1659)
+print(f"Actual division:", 9362158/1659)
